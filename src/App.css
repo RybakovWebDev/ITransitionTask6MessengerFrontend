@@ -1,0 +1,197 @@
+.app-parent {
+  height: 100vh;
+  min-height: 80rem;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #222222;
+}
+
+.app-header-parent {
+  margin: 3rem 0 0 0;
+  min-height: 6rem;
+  width: 100%;
+  max-width: 95rem;
+  border-bottom: 5px solid #222222;
+  background-color: #333333;
+}
+
+.user-selection-cont {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.user-selection-label {
+  color: white;
+}
+
+.user-selection-form {
+  margin: 0rem 3rem 0rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.user-selection-input {
+  margin: 0 1rem 0 1rem;
+  width: 20rem;
+}
+
+/* /////////////////////////////////// */
+.app-body-parent {
+  height: 65rem;
+  width: 100%;
+  max-width: 95rem;
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  background-color: #333333;
+}
+
+.modal-cont {
+  width: 50%;
+  max-width: 50rem;
+  height: 40rem;
+  margin: 10rem 0 0 0;
+  /* align-self: center; */
+  position: absolute;
+  box-shadow: 0px 0px 23px black;
+  background-color: white;
+}
+
+.modal-dialog {
+}
+
+.modal-dialog-header {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  /* padding: 0 3rem 0 3rem; */
+}
+
+#modal-user-selection {
+  width: 80%;
+  margin: 0 0 1rem 0;
+}
+
+.modal-dialog-body {
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#modal-text-title {
+  width: 80%;
+  margin: 0 0 1rem 0;
+}
+
+#modal-text-body {
+  width: 80%;
+  height: 20rem;
+  resize: none;
+}
+
+.modal-dialog-footer {
+  height: 5rem;
+  /* width: 80%; */
+}
+
+.compose-message-btn {
+}
+
+/* /////////////////////////////////// */
+
+.messages-parent {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.messages-list-cont {
+  width: 100%;
+  background-color: #333333;
+}
+
+.messages-accordion {
+  margin: 0 2rem 0 2rem;
+  --bs-accordion-active-bg: rgb(109, 109, 109);
+  --bs-accordion-active-color: #ffffff;
+  --bs-accordion-btn-focus-border-color: #ff0000;
+}
+
+.accordion-item {
+  margin: 1rem 0 0 0;
+}
+
+.accordion-header {
+}
+
+.accordion-body {
+  height: 10rem;
+}
+
+.messages-list {
+  height: 100%;
+  padding: 0;
+  margin: 0 2rem 0 2rem;
+  list-style-type: none;
+  overflow: auto;
+}
+
+.messages-list-item {
+  width: 100%;
+  height: 5rem;
+  margin: 0.5rem 0 0 0;
+  padding: 0 2rem 0 2rem;
+  display: flex;
+  align-items: center;
+  color: white;
+  border: solid 1px white;
+  background-color: #222222;
+}
+
+.messages-list-item-sender {
+  width: 30%;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.messages-list-item-title {
+  font-size: 23px;
+  font-weight: 300;
+}
+
+.messages-list-item-vertical-separator {
+  height: 50%;
+  margin: 0 2rem 0 2rem;
+  border-left: 1px solid white;
+}
+.messages-list-item-body {
+  font-size: 23px;
+  font-weight: 300;
+}
+
+.app-footer-parent {
+  min-height: 5rem;
+  width: 100%;
+  max-width: 95rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  border-top: 5px solid #222222;
+  background-color: #333333;
+}
+
+.compose-message-btn {
+  margin: 0 3rem 0 0;
+}
